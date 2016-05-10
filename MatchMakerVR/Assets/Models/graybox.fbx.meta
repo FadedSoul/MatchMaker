@@ -1,0 +1,921 @@
+fileFormatVersion: 2
+guid: 4b4241e1c2b35eb47a9422835cf5a7e5
+timeCreated: 1462866721
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: brush
+    100002: brush_1
+    100004: brush_2
+    100006: brush_3
+    100008: brush_4
+    100010: brush_5
+    100012: brush_6
+    100014: flat_plant
+    100016: flat_plant_1
+    100018: flat_plant_2
+    100020: flat_plant_3
+    100022: flat_plant_4
+    100024: flat_plant_5
+    100026: flat_plant_6
+    100028: flat_plant_7
+    100030: flat_plant_8
+    100032: flat_plant_9
+    100034: gloom_plant_1
+    100036: gloom_plant_2
+    100038: gloom_plant_3
+    100040: gloom_plant_4
+    100042: gloom_plant_5
+    100044: gloom_plants
+    100046: //RootNode
+    100048: ground_plane
+    100050: hanging_shroom
+    100052: hanging_shroom_1
+    100054: hanging_shroom_2
+    100056: hanging_shroom_3
+    100058: hanging_shroom_4
+    100060: hanging_shroom_5
+    100062: hanging_shroom_6
+    100064: jelly_fish
+    100066: jelly_fish_1
+    100068: jelly_fish_2
+    100070: jelly_fish_3
+    100072: jelly_fish_4
+    100074: jelly_fish_5
+    100076: jelly_fish_6
+    100078: moss
+    100080: moss 1
+    100082: moss 2
+    100084: moss 3
+    100086: moss1
+    100088: moss1 1
+    100090: moss1 2
+    100092: moss_1
+    100094: moss_2
+    100096: moss_3
+    100098: pCube20
+    100100: pCube20 1
+    100102: pCube20 2
+    100104: pCube20 3
+    100106: pCube20 4
+    100108: pCube21
+    100110: pCube21 1
+    100112: pCube21 2
+    100114: pCube21 3
+    100116: pCube21 4
+    100118: pCube22
+    100120: pCube22 1
+    100122: pCube22 2
+    100124: pCube22 3
+    100126: pCube22 4
+    100128: pCube23
+    100130: pCube23 1
+    100132: pCube23 2
+    100134: pCube23 3
+    100136: pCube23 4
+    100138: pCube23 5
+    100140: pCube24
+    100142: pCube24 1
+    100144: pCube24 2
+    100146: pCube24 3
+    100148: pCube24 4
+    100150: pCube24 5
+    100152: pond
+    100154: pPlane2
+    100156: pPlane2 1
+    100158: pPlane2 2
+    100160: pPlane2 3
+    100162: pPlane2 4
+    100164: pPlane2 5
+    100166: pPlane2 6
+    100168: pPlane3
+    100170: pPlane3 1
+    100172: pPlane3 2
+    100174: pPlane3 3
+    100176: pPlane3 4
+    100178: pPlane3 5
+    100180: pPlane3 6
+    100182: pPlane4
+    100184: pPlane4 1
+    100186: pPlane4 2
+    100188: pPlane4 3
+    100190: pPlane4 4
+    100192: pPlane4 5
+    100194: pPlane4 6
+    100196: rock_1
+    100198: rock_10
+    100200: rock_11
+    100202: rock_12
+    100204: rock_13
+    100206: rock_14
+    100208: rock_2
+    100210: rock_3
+    100212: rock_4
+    100214: rock_5
+    100216: rock_6
+    100218: rock_7
+    100220: rock_8
+    100222: rock_9
+    100224: rocks
+    100226: shroom_1
+    100228: shroom_2
+    100230: shroom_3
+    100232: shroom_4
+    100234: shroom_5
+    100236: shrooms
+    100238: shrub_1
+    100240: shrub_2
+    100242: shrub_3
+    100244: shrub_4
+    100246: shrub_5
+    100248: shrub_6
+    100250: shrub_7
+    100252: shrubs
+    100254: tree_1
+    100256: tree_10
+    100258: tree_11
+    100260: tree_12
+    100262: tree_13
+    100264: tree_14
+    100266: tree_15
+    100268: tree_2
+    100270: tree_3
+    100272: tree_4
+    100274: tree_5
+    100276: tree_6
+    100278: tree_7
+    100280: tree_8
+    100282: tree_9
+    100284: trees
+    100286: vine_1
+    100288: vine_10
+    100290: vine_11
+    100292: vine_12
+    100294: vine_13
+    100296: vine_14
+    100298: vine_15
+    100300: vine_16
+    100302: vine_17
+    100304: vine_18
+    100306: vine_19
+    100308: vine_2
+    100310: vine_20
+    100312: vine_20 1
+    100314: vine_20 2
+    100316: vine_20 3
+    100318: vine_21
+    100320: vine_21 1
+    100322: vine_21 2
+    100324: vine_21 3
+    100326: vine_22
+    100328: vine_22 1
+    100330: vine_22 2
+    100332: vine_22 3
+    100334: vine_23
+    100336: vine_23 1
+    100338: vine_23 2
+    100340: vine_23 3
+    100342: vine_24
+    100344: vine_24 1
+    100346: vine_24 2
+    100348: vine_24 3
+    100350: vine_25
+    100352: vine_25 1
+    100354: vine_25 2
+    100356: vine_25 3
+    100358: vine_3
+    100360: vine_4
+    100362: vine_5
+    100364: vine_6
+    100366: vine_7
+    100368: vine_8
+    100370: vine_9
+    100372: vine_group_1
+    100374: vine_group_2
+    100376: vine_group_3
+    100378: vine_group_4
+    100380: vine_group_5
+    100382: vine_group_6
+    100384: vines
+    400000: brush
+    400002: brush_1
+    400004: brush_2
+    400006: brush_3
+    400008: brush_4
+    400010: brush_5
+    400012: brush_6
+    400014: flat_plant
+    400016: flat_plant_1
+    400018: flat_plant_2
+    400020: flat_plant_3
+    400022: flat_plant_4
+    400024: flat_plant_5
+    400026: flat_plant_6
+    400028: flat_plant_7
+    400030: flat_plant_8
+    400032: flat_plant_9
+    400034: gloom_plant_1
+    400036: gloom_plant_2
+    400038: gloom_plant_3
+    400040: gloom_plant_4
+    400042: gloom_plant_5
+    400044: gloom_plants
+    400046: //RootNode
+    400048: ground_plane
+    400050: hanging_shroom
+    400052: hanging_shroom_1
+    400054: hanging_shroom_2
+    400056: hanging_shroom_3
+    400058: hanging_shroom_4
+    400060: hanging_shroom_5
+    400062: hanging_shroom_6
+    400064: jelly_fish
+    400066: jelly_fish_1
+    400068: jelly_fish_2
+    400070: jelly_fish_3
+    400072: jelly_fish_4
+    400074: jelly_fish_5
+    400076: jelly_fish_6
+    400078: moss
+    400080: moss 1
+    400082: moss 2
+    400084: moss 3
+    400086: moss1
+    400088: moss1 1
+    400090: moss1 2
+    400092: moss_1
+    400094: moss_2
+    400096: moss_3
+    400098: pCube20
+    400100: pCube20 1
+    400102: pCube20 2
+    400104: pCube20 3
+    400106: pCube20 4
+    400108: pCube21
+    400110: pCube21 1
+    400112: pCube21 2
+    400114: pCube21 3
+    400116: pCube21 4
+    400118: pCube22
+    400120: pCube22 1
+    400122: pCube22 2
+    400124: pCube22 3
+    400126: pCube22 4
+    400128: pCube23
+    400130: pCube23 1
+    400132: pCube23 2
+    400134: pCube23 3
+    400136: pCube23 4
+    400138: pCube23 5
+    400140: pCube24
+    400142: pCube24 1
+    400144: pCube24 2
+    400146: pCube24 3
+    400148: pCube24 4
+    400150: pCube24 5
+    400152: pond
+    400154: pPlane2
+    400156: pPlane2 1
+    400158: pPlane2 2
+    400160: pPlane2 3
+    400162: pPlane2 4
+    400164: pPlane2 5
+    400166: pPlane2 6
+    400168: pPlane3
+    400170: pPlane3 1
+    400172: pPlane3 2
+    400174: pPlane3 3
+    400176: pPlane3 4
+    400178: pPlane3 5
+    400180: pPlane3 6
+    400182: pPlane4
+    400184: pPlane4 1
+    400186: pPlane4 2
+    400188: pPlane4 3
+    400190: pPlane4 4
+    400192: pPlane4 5
+    400194: pPlane4 6
+    400196: rock_1
+    400198: rock_10
+    400200: rock_11
+    400202: rock_12
+    400204: rock_13
+    400206: rock_14
+    400208: rock_2
+    400210: rock_3
+    400212: rock_4
+    400214: rock_5
+    400216: rock_6
+    400218: rock_7
+    400220: rock_8
+    400222: rock_9
+    400224: rocks
+    400226: shroom_1
+    400228: shroom_2
+    400230: shroom_3
+    400232: shroom_4
+    400234: shroom_5
+    400236: shrooms
+    400238: shrub_1
+    400240: shrub_2
+    400242: shrub_3
+    400244: shrub_4
+    400246: shrub_5
+    400248: shrub_6
+    400250: shrub_7
+    400252: shrubs
+    400254: tree_1
+    400256: tree_10
+    400258: tree_11
+    400260: tree_12
+    400262: tree_13
+    400264: tree_14
+    400266: tree_15
+    400268: tree_2
+    400270: tree_3
+    400272: tree_4
+    400274: tree_5
+    400276: tree_6
+    400278: tree_7
+    400280: tree_8
+    400282: tree_9
+    400284: trees
+    400286: vine_1
+    400288: vine_10
+    400290: vine_11
+    400292: vine_12
+    400294: vine_13
+    400296: vine_14
+    400298: vine_15
+    400300: vine_16
+    400302: vine_17
+    400304: vine_18
+    400306: vine_19
+    400308: vine_2
+    400310: vine_20
+    400312: vine_20 1
+    400314: vine_20 2
+    400316: vine_20 3
+    400318: vine_21
+    400320: vine_21 1
+    400322: vine_21 2
+    400324: vine_21 3
+    400326: vine_22
+    400328: vine_22 1
+    400330: vine_22 2
+    400332: vine_22 3
+    400334: vine_23
+    400336: vine_23 1
+    400338: vine_23 2
+    400340: vine_23 3
+    400342: vine_24
+    400344: vine_24 1
+    400346: vine_24 2
+    400348: vine_24 3
+    400350: vine_25
+    400352: vine_25 1
+    400354: vine_25 2
+    400356: vine_25 3
+    400358: vine_3
+    400360: vine_4
+    400362: vine_5
+    400364: vine_6
+    400366: vine_7
+    400368: vine_8
+    400370: vine_9
+    400372: vine_group_1
+    400374: vine_group_2
+    400376: vine_group_3
+    400378: vine_group_4
+    400380: vine_group_5
+    400382: vine_group_6
+    400384: vines
+    2300000: flat_plant_1
+    2300002: flat_plant_2
+    2300004: flat_plant_3
+    2300006: flat_plant_4
+    2300008: flat_plant_5
+    2300010: flat_plant_6
+    2300012: flat_plant_7
+    2300014: flat_plant_8
+    2300016: flat_plant_9
+    2300018: gloom_plant_1
+    2300020: gloom_plant_2
+    2300022: gloom_plant_3
+    2300024: gloom_plant_4
+    2300026: gloom_plant_5
+    2300028: ground_plane
+    2300030: hanging_shroom_1
+    2300032: hanging_shroom_2
+    2300034: hanging_shroom_3
+    2300036: hanging_shroom_4
+    2300038: hanging_shroom_5
+    2300040: hanging_shroom_6
+    2300042: jelly_fish_1
+    2300044: jelly_fish_2
+    2300046: jelly_fish_3
+    2300048: jelly_fish_4
+    2300050: jelly_fish_5
+    2300052: jelly_fish_6
+    2300054: moss 1
+    2300056: moss 2
+    2300058: moss 3
+    2300060: moss1
+    2300062: moss1 1
+    2300064: moss1 2
+    2300066: pCube20
+    2300068: pCube20 1
+    2300070: pCube20 2
+    2300072: pCube20 3
+    2300074: pCube20 4
+    2300076: pCube21
+    2300078: pCube21 1
+    2300080: pCube21 2
+    2300082: pCube21 3
+    2300084: pCube21 4
+    2300086: pCube22
+    2300088: pCube22 1
+    2300090: pCube22 2
+    2300092: pCube22 3
+    2300094: pCube22 4
+    2300096: pCube23
+    2300098: pCube23 1
+    2300100: pCube23 2
+    2300102: pCube23 3
+    2300104: pCube23 4
+    2300106: pCube23 5
+    2300108: pCube24
+    2300110: pCube24 1
+    2300112: pCube24 2
+    2300114: pCube24 3
+    2300116: pCube24 4
+    2300118: pCube24 5
+    2300120: pond
+    2300122: pPlane2
+    2300124: pPlane2 1
+    2300126: pPlane2 2
+    2300128: pPlane2 3
+    2300130: pPlane2 4
+    2300132: pPlane2 5
+    2300134: pPlane2 6
+    2300136: pPlane3
+    2300138: pPlane3 1
+    2300140: pPlane3 2
+    2300142: pPlane3 3
+    2300144: pPlane3 4
+    2300146: pPlane3 5
+    2300148: pPlane3 6
+    2300150: pPlane4
+    2300152: pPlane4 1
+    2300154: pPlane4 2
+    2300156: pPlane4 3
+    2300158: pPlane4 4
+    2300160: pPlane4 5
+    2300162: pPlane4 6
+    2300164: rock_1
+    2300166: rock_10
+    2300168: rock_11
+    2300170: rock_12
+    2300172: rock_13
+    2300174: rock_14
+    2300176: rock_2
+    2300178: rock_3
+    2300180: rock_4
+    2300182: rock_5
+    2300184: rock_6
+    2300186: rock_7
+    2300188: rock_8
+    2300190: rock_9
+    2300192: tree_1
+    2300194: tree_10
+    2300196: tree_11
+    2300198: tree_12
+    2300200: tree_13
+    2300202: tree_14
+    2300204: tree_15
+    2300206: tree_2
+    2300208: tree_3
+    2300210: tree_4
+    2300212: tree_5
+    2300214: tree_6
+    2300216: tree_7
+    2300218: tree_8
+    2300220: tree_9
+    2300222: vine_1
+    2300224: vine_10
+    2300226: vine_11
+    2300228: vine_12
+    2300230: vine_13
+    2300232: vine_14
+    2300234: vine_15
+    2300236: vine_16
+    2300238: vine_17
+    2300240: vine_18
+    2300242: vine_19
+    2300244: vine_2
+    2300246: vine_20
+    2300248: vine_20 1
+    2300250: vine_20 2
+    2300252: vine_20 3
+    2300254: vine_21
+    2300256: vine_21 1
+    2300258: vine_21 2
+    2300260: vine_21 3
+    2300262: vine_22
+    2300264: vine_22 1
+    2300266: vine_22 2
+    2300268: vine_22 3
+    2300270: vine_23
+    2300272: vine_23 1
+    2300274: vine_23 2
+    2300276: vine_23 3
+    2300278: vine_24
+    2300280: vine_24 1
+    2300282: vine_24 2
+    2300284: vine_24 3
+    2300286: vine_25
+    2300288: vine_25 1
+    2300290: vine_25 2
+    2300292: vine_25 3
+    2300294: vine_3
+    2300296: vine_4
+    2300298: vine_5
+    2300300: vine_6
+    2300302: vine_7
+    2300304: vine_8
+    2300306: vine_9
+    3300000: flat_plant_1
+    3300002: flat_plant_2
+    3300004: flat_plant_3
+    3300006: flat_plant_4
+    3300008: flat_plant_5
+    3300010: flat_plant_6
+    3300012: flat_plant_7
+    3300014: flat_plant_8
+    3300016: flat_plant_9
+    3300018: gloom_plant_1
+    3300020: gloom_plant_2
+    3300022: gloom_plant_3
+    3300024: gloom_plant_4
+    3300026: gloom_plant_5
+    3300028: ground_plane
+    3300030: hanging_shroom_1
+    3300032: hanging_shroom_2
+    3300034: hanging_shroom_3
+    3300036: hanging_shroom_4
+    3300038: hanging_shroom_5
+    3300040: hanging_shroom_6
+    3300042: jelly_fish_1
+    3300044: jelly_fish_2
+    3300046: jelly_fish_3
+    3300048: jelly_fish_4
+    3300050: jelly_fish_5
+    3300052: jelly_fish_6
+    3300054: moss 1
+    3300056: moss 2
+    3300058: moss 3
+    3300060: moss1
+    3300062: moss1 1
+    3300064: moss1 2
+    3300066: pCube20
+    3300068: pCube20 1
+    3300070: pCube20 2
+    3300072: pCube20 3
+    3300074: pCube20 4
+    3300076: pCube21
+    3300078: pCube21 1
+    3300080: pCube21 2
+    3300082: pCube21 3
+    3300084: pCube21 4
+    3300086: pCube22
+    3300088: pCube22 1
+    3300090: pCube22 2
+    3300092: pCube22 3
+    3300094: pCube22 4
+    3300096: pCube23
+    3300098: pCube23 1
+    3300100: pCube23 2
+    3300102: pCube23 3
+    3300104: pCube23 4
+    3300106: pCube23 5
+    3300108: pCube24
+    3300110: pCube24 1
+    3300112: pCube24 2
+    3300114: pCube24 3
+    3300116: pCube24 4
+    3300118: pCube24 5
+    3300120: pond
+    3300122: pPlane2
+    3300124: pPlane2 1
+    3300126: pPlane2 2
+    3300128: pPlane2 3
+    3300130: pPlane2 4
+    3300132: pPlane2 5
+    3300134: pPlane2 6
+    3300136: pPlane3
+    3300138: pPlane3 1
+    3300140: pPlane3 2
+    3300142: pPlane3 3
+    3300144: pPlane3 4
+    3300146: pPlane3 5
+    3300148: pPlane3 6
+    3300150: pPlane4
+    3300152: pPlane4 1
+    3300154: pPlane4 2
+    3300156: pPlane4 3
+    3300158: pPlane4 4
+    3300160: pPlane4 5
+    3300162: pPlane4 6
+    3300164: rock_1
+    3300166: rock_10
+    3300168: rock_11
+    3300170: rock_12
+    3300172: rock_13
+    3300174: rock_14
+    3300176: rock_2
+    3300178: rock_3
+    3300180: rock_4
+    3300182: rock_5
+    3300184: rock_6
+    3300186: rock_7
+    3300188: rock_8
+    3300190: rock_9
+    3300192: tree_1
+    3300194: tree_10
+    3300196: tree_11
+    3300198: tree_12
+    3300200: tree_13
+    3300202: tree_14
+    3300204: tree_15
+    3300206: tree_2
+    3300208: tree_3
+    3300210: tree_4
+    3300212: tree_5
+    3300214: tree_6
+    3300216: tree_7
+    3300218: tree_8
+    3300220: tree_9
+    3300222: vine_1
+    3300224: vine_10
+    3300226: vine_11
+    3300228: vine_12
+    3300230: vine_13
+    3300232: vine_14
+    3300234: vine_15
+    3300236: vine_16
+    3300238: vine_17
+    3300240: vine_18
+    3300242: vine_19
+    3300244: vine_2
+    3300246: vine_20
+    3300248: vine_20 1
+    3300250: vine_20 2
+    3300252: vine_20 3
+    3300254: vine_21
+    3300256: vine_21 1
+    3300258: vine_21 2
+    3300260: vine_21 3
+    3300262: vine_22
+    3300264: vine_22 1
+    3300266: vine_22 2
+    3300268: vine_22 3
+    3300270: vine_23
+    3300272: vine_23 1
+    3300274: vine_23 2
+    3300276: vine_23 3
+    3300278: vine_24
+    3300280: vine_24 1
+    3300282: vine_24 2
+    3300284: vine_24 3
+    3300286: vine_25
+    3300288: vine_25 1
+    3300290: vine_25 2
+    3300292: vine_25 3
+    3300294: vine_3
+    3300296: vine_4
+    3300298: vine_5
+    3300300: vine_6
+    3300302: vine_7
+    3300304: vine_8
+    3300306: vine_9
+    4300000: ground_plane
+    4300002: pond
+    4300004: tree_7
+    4300006: tree_6
+    4300008: tree_5
+    4300010: tree_4
+    4300012: tree_3
+    4300014: tree_2
+    4300016: tree_1
+    4300018: tree_8
+    4300020: tree_9
+    4300022: tree_10
+    4300024: tree_11
+    4300026: tree_12
+    4300028: tree_13
+    4300030: tree_14
+    4300032: tree_15
+    4300034: vine_6
+    4300036: vine_5
+    4300038: vine_4
+    4300040: vine_3
+    4300042: vine_2
+    4300044: vine_1
+    4300046: vine_10
+    4300048: vine_20
+    4300050: vine_21
+    4300052: vine_22
+    4300054: vine_23
+    4300056: vine_24
+    4300058: vine_25
+    4300060: vine_19
+    4300062: vine_18
+    4300064: vine_17
+    4300066: vine_16
+    4300068: vine_15
+    4300070: vine_14
+    4300072: vine_13
+    4300074: vine_12
+    4300076: vine_11
+    4300078: vine_8
+    4300080: vine_7
+    4300082: vine_9
+    4300084: vine_20
+    4300086: vine_21
+    4300088: vine_22
+    4300090: vine_23
+    4300092: vine_24
+    4300094: vine_25
+    4300096: vine_20
+    4300098: vine_21
+    4300100: vine_22
+    4300102: vine_23
+    4300104: vine_24
+    4300106: vine_25
+    4300108: vine_20
+    4300110: vine_21
+    4300112: vine_22
+    4300114: vine_23
+    4300116: vine_24
+    4300118: vine_25
+    4300120: gloom_plant_5
+    4300122: gloom_plant_4
+    4300124: gloom_plant_3
+    4300126: gloom_plant_2
+    4300128: gloom_plant_1
+    4300130: hanging_shroom_6
+    4300132: hanging_shroom_5
+    4300134: hanging_shroom_4
+    4300136: hanging_shroom_3
+    4300138: hanging_shroom_2
+    4300140: hanging_shroom_1
+    4300142: pPlane4
+    4300144: pPlane2
+    4300146: pPlane3
+    4300148: pPlane4
+    4300150: pPlane2
+    4300152: pPlane3
+    4300154: pPlane4
+    4300156: pPlane2
+    4300158: pPlane3
+    4300160: pPlane4
+    4300162: pPlane2
+    4300164: pPlane3
+    4300166: pPlane4
+    4300168: pPlane2
+    4300170: pPlane3
+    4300172: pPlane4
+    4300174: pPlane2
+    4300176: pPlane3
+    4300178: pPlane4
+    4300180: pPlane2
+    4300182: pPlane3
+    4300184: pCube20
+    4300186: pCube21
+    4300188: pCube22
+    4300190: pCube20
+    4300192: pCube21
+    4300194: pCube22
+    4300196: pCube20
+    4300198: pCube21
+    4300200: pCube22
+    4300202: pCube20
+    4300204: pCube21
+    4300206: pCube22
+    4300208: pCube20
+    4300210: pCube21
+    4300212: pCube22
+    4300214: pCube24
+    4300216: pCube23
+    4300218: pCube24
+    4300220: pCube23
+    4300222: pCube24
+    4300224: pCube23
+    4300226: pCube24
+    4300228: pCube23
+    4300230: pCube24
+    4300232: pCube23
+    4300234: pCube24
+    4300236: pCube23
+    4300238: jelly_fish_6
+    4300240: jelly_fish_5
+    4300242: jelly_fish_4
+    4300244: jelly_fish_3
+    4300246: jelly_fish_2
+    4300248: jelly_fish_1
+    4300250: moss1
+    4300252: moss
+    4300254: moss1
+    4300256: moss
+    4300258: moss1
+    4300260: moss
+    4300262: flat_plant_1
+    4300264: flat_plant_2
+    4300266: flat_plant_3
+    4300268: flat_plant_4
+    4300270: flat_plant_5
+    4300272: flat_plant_6
+    4300274: flat_plant_7
+    4300276: flat_plant_8
+    4300278: flat_plant_9
+    4300280: rock_1
+    4300282: rock_2
+    4300284: rock_3
+    4300286: rock_4
+    4300288: rock_5
+    4300290: rock_6
+    4300292: rock_7
+    4300294: rock_8
+    4300296: rock_9
+    4300298: rock_10
+    4300300: rock_11
+    4300302: rock_12
+    4300304: rock_13
+    4300306: rock_14
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
