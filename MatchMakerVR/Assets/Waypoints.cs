@@ -1,77 +1,47 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
+using System.Collections;
 
-public class Waypoints : MonoBehaviour
-{
+public class Waypoints : MonoBehaviour {
     [SerializeField]
-    private List<Transform> Points = new List<Transform>();
-    private GameObject[] obj;
+    private Transform[] Points;
     [SerializeField]
     private Transform CurrentWaypoint;
     [SerializeField]
     private float MoveSpeed = 10f;
     [SerializeField]
-    private float Damping = 0.5f;
+    private float Damping = 3f;
     [SerializeField]
     private Transform MyTransform;
     [SerializeField]
     private int index = 0;
     // Use this for initialization
-    void Awake()
-    {
-
-        obj = GameObject.FindGameObjectsWithTag("Waypoint");
-        foreach (GameObject oob in obj)
-        {
-            Points.Add(oob.transform);
-        }
-        Points.Sort(CompareListByName);
-
-
-        CurrentWaypoint = Points[index];
-    }
-
-    void Start()
-    {
-
-        // CurrentWaypoint = Points.
-
+    void Start() {
+        CurrentWaypoint = Points[0];
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         MoveTowards();
     }
 
     void LateUpdate()
     {
-        Quaternion rotation = Quaternion.LookRotation(CurrentWaypoint.position - MyTransform.position);
-        MyTransform.rotation = Quaternion.Slerp(MyTransform.rotation, rotation, Time.deltaTime * Damping);
+        //Quaternion rotation = Quaternion.LookRotation(CurrentWaypoint.position - MyTransform.position);
+        //MyTransform.rotation = Quaternion.Slerp(MyTransform.rotation, rotation, Time.deltaTime * Damping);
     }
 
     void MoveTowards()
     {
         float step = MoveSpeed * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, CurrentWaypoint.position, step);
-
-    }
-    void OnTriggerEnter(Collider coll)
-    {
-        //Debug.Log("Hallo");
-        if (coll.gameObject.tag == "Waypoint")
+        if (transform.position == CurrentWaypoint.position)
         {
-            index++;
-            if (index == obj.Length)
+            if (index == Points.Length)
             {
                 index = 0;
-            }
-            CurrentWaypoint = Points[index].transform;
+            }            
+            CurrentWaypoint = Points[index];
+            index++;
         }
-    }
-
-    private static int CompareListByName(Transform i1, Transform i2)
-    {
-        return i1.name.CompareTo(i2.name);
     }
 }
