@@ -1,12 +1,10 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 public class Waypoints : MonoBehaviour
 {
     [SerializeField]
     private List<Transform> Points = new List<Transform>();
-    [SerializeField]
     private GameObject[] obj;
     [SerializeField]
     private Transform CurrentWaypoint;
